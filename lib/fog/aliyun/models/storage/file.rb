@@ -98,7 +98,7 @@ module Fog
 
         def public_url
           requires :key
-          collection.get_url(key)
+          collection.get_https_url(key)
         end
 
         def save(options = {})
