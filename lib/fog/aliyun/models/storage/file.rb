@@ -93,7 +93,7 @@ module Fog
                    else
                      directory.key + '/' + key
                    end
-          service.get_object_http_url_public(object, expires, options)
+          service.get_object_https_url_public(object, expires, options)
         end
 
         def public_url
